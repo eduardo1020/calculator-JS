@@ -1,0 +1,365 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    color: #C5C5C5;
+    font-size: 1.2em;
+    background-color: #F9F9F9;
+    height: 100%;
+}
+/*
+.ladoA {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.ladoB {
+    display: flex;  
+    flex-direction: column;
+    float: right;
+    width: 53%;
+    margin-top: -850px;
+}
+
+.blue {
+    background-color: #50A8FF;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.yellow {
+    background-color: #FFCB8A;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 700px;
+    margin-bottom: 40px;
+}
+
+.red {
+    background-color: #FF6B89;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.green {
+    background-color: #44F8CA;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 400px;
+}
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    background-color: white;
+    border-radius: 15px;
+}
+
+#input1 {
+    float: right;
+    height: 50px;
+    font-size: 0.9em;
+    margin-top: 100px;
+    border: none;
+    text-align: end;    
+}
+
+#input2 {
+    float: right;
+    height: 50px;
+    font-size: 1.1em;
+    text-align: end;
+    border: none;
+}
+
+.teclas {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.tecla {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#operacao {
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+
+#numero:hover {
+    background-color: #44F8CA;
+    cursor: pointer;
+}
+
+#igual {
+    background-color: #FFCB8A;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+/* responsividade */
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 320.00px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ladoA {
+        display: none;
+    }
+
+    .ladoB {
+        display: none;
+    }
+
+    .calculadora {
+        border: 1px solid red;
+        min-width: 80%;
+        margin-top: 10px;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        display: inline-block;
+
+    }
+
+    .teclas {
+        border: 1px solid blue;
+
+    }
+
+    #row {
+        border: 1px solid green;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecla {
+        border: 1px solid red;
+        width: 35px;
+        height: 35px;
+        font-size: 1.2em;
+        float: right;
+        margin-left: 10px;
+    }
+
+    #input1 {
+        width: 90%;
+    }
+
+    #input2 {
+        width: 90%;
+    }
+}
+
+@media  (min-width: 321.00px) and (max-width: 375.00px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .ladoA {
+        display: none;
+    }
+
+    .ladoB {
+        display: none;
+    }
+
+    .calculadora {
+        border: 1px solid red;
+        min-width: 80%;
+        margin-top: 10px;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        display: inline-block;
+
+    }
+
+    .teclas {
+        border: 1px solid blue;
+
+    }
+
+    #row {
+        border: 1px solid green;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecla {
+        border: 1px solid red;
+        width: 35px;
+        height: 35px;
+        font-size: 1.2em;
+        float: right;
+        margin-left: 10px;
+    }
+
+    #input1 {
+        width: 90%;
+    }
+
+    #input2 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 376.00px) and (max-width: 425.00px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .ladoA {
+        display: none;
+    }
+
+    .ladoB {
+        display: none;
+    }
+
+    .calculadora {
+        border: 1px solid red;
+        min-width: 80%;
+        margin-top: 10px;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        display: inline-block;
+
+    }
+
+    .teclas {
+        border: 1px solid blue;
+
+    }
+
+    #row {
+        border: 1px solid green;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecla {
+        border: 1px solid red;
+        width: 35px;
+        height: 35px;
+        font-size: 1.2em;
+        float: right;
+        margin-left: 10px;
+    }
+
+    #input1 {
+        width: 90%;
+    }
+
+    #input2 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 426.00px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFCB8A;
+        height: 100%;
+    }
+
+    .ladoA {
+        display: none;
+    }
+
+    .ladoB {
+        display: none;
+    }
+
+    .calculadora {
+        max-width: 18%;
+        margin-top: 10px;
+        height: 62vh;
+        display: flex;
+        flex-direction: row;
+        display: inline-block;
+
+    }
+
+    #row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecla {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2em;
+        float: right;
+        margin-left: 20px;
+    }
+
+    #input1 {
+        width: 90%;
+    }
+
+    #input2 {
+        width: 90%;
+    }
+    
+}
+
+/*
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/

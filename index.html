@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link customizado -->
+    <link rel="stylesheet" type="text/css" href="/calculadora_JS/style.css">
+
+    <!-- Script JS -->
+    <script src="/calculo.js"></script>
+</head>
+
+<body>
+
+    <div class="ladoA">
+        <div class="blue"></div>
+        <div class="red"></div>
+    </div>
+
+    <div class="ladoB">
+        <div class="yellow"></div>
+        <div class="green"></div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="container">
+
+        <div class="calculadora">
+
+            <div class="output">
+
+                <input id="input1" type="text">
+                <input id="input2" type="text">
+
+            </div>
+
+            <div style="clear: both;"></div>
+
+            <div class="teclas">
+
+                <div id="row">
+                    <div onclick="calcular('operacao', 'c')" id="operacao" class="tecla">C</div>
+                    <div onclick="calcular('operacao', '%')" id="operacao" class="tecla">%</div>
+                    <div onclick="calcular('operacao', '/')" id="operacao" class="tecla">/</div>
+                    <div onclick="calcular('operacao', '*')" id="operacao" class="tecla">x</div>
+                </div>
+
+                <div id="row">
+                    <div onclick="calcular('numero', '7')" id="numero" class="tecla">7</div>
+                    <div onclick="calcular('numero', '8')" id="numero" class="tecla">8</div>
+                    <div onclick="calcular('numero', '9')" id="numero" class="tecla">9</div>
+                    <div onclick="calcular('operacao', '-')" id="operacao" class="tecla">-</div>
+                </div>
+
+                <div id="row">
+                    <div onclick="calcular('numero', '4')" id="numero" class="tecla">4</div>
+                    <div onclick="calcular('numero', '5')" id="numero" class="tecla">5</div>
+                    <div onclick="calcular('numero', '6')" id="numero" class="tecla">6</div>
+                    <div onclick="calcular('operacao', '+')" id="operacao" class="tecla">+</div>
+                </div>
+
+                <div id="row">
+                    <div onclick="calcular('numero', '1')" id="numero" class="tecla">1</div>
+                    <div onclick="calcular('numero', '2')" id="numero" class="tecla">2</div>
+                    <div onclick="calcular('numero', '3')" id="numero" class="tecla">3</div>
+                    <div onclick="calcular('operacao', '.')" id="operacao" class="tecla">.</div>
+                </div>
+
+                <div id="row">
+                    <div onclick="calcular('numero', '0')" id="numero" class="tecla">0</div>
+                    <div onclick="calcular('operacao', '=')" id="igual" class="tecla">=</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
