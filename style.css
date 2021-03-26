@@ -143,7 +143,6 @@ html, body {
     }
 
     .calculadora {
-        border: 1px solid red;
         min-width: 80%;
         margin-top: 10px;
         height: 100vh;
@@ -153,20 +152,13 @@ html, body {
 
     }
 
-    .teclas {
-        border: 1px solid blue;
-
-    }
-
     #row {
-        border: 1px solid green;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
     .tecla {
-        border: 1px solid red;
         width: 35px;
         height: 35px;
         font-size: 1.2em;
@@ -200,7 +192,6 @@ html, body {
     }
 
     .calculadora {
-        border: 1px solid red;
         min-width: 80%;
         margin-top: 10px;
         height: 100vh;
@@ -210,20 +201,13 @@ html, body {
 
     }
 
-    .teclas {
-        border: 1px solid blue;
-
-    }
-
     #row {
-        border: 1px solid green;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
     .tecla {
-        border: 1px solid red;
         width: 35px;
         height: 35px;
         font-size: 1.2em;
@@ -257,7 +241,6 @@ html, body {
     }
 
     .calculadora {
-        border: 1px solid red;
         min-width: 80%;
         margin-top: 10px;
         height: 100vh;
@@ -267,20 +250,13 @@ html, body {
 
     }
 
-    .teclas {
-        border: 1px solid blue;
-
-    }
-
     #row {
-        border: 1px solid green;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
     .tecla {
-        border: 1px solid red;
         width: 35px;
         height: 35px;
         font-size: 1.2em;
